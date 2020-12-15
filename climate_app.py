@@ -1,5 +1,4 @@
 from matplotlib import style
-style.use('fivethirtyeight')
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -28,8 +27,8 @@ def welcome():
   return( 
         f"Welcome to the My Trip Page API! <br/>"
         f"Available Routes:<br/>"
-        f"/api/v1.0/<start_date><br/>"
-        f"/api/v1.0/<start_date>/<end_date><br/>"
+        f"/api/v1.0/<mytrip_start_date><br/>"
+        f"/api/v1.0/<mytrip_start_date>/<mytrip_end_date><br/>"
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
